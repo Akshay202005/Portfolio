@@ -8,24 +8,24 @@ import { AnimatePresence } from "motion/react";
 import { FaCircle } from "react-icons/fa6";
 
   const turboBasketImages = [
-    "/imgs/TurboBasket/User1.jpg",
-    "/imgs/TurboBasket/User2.jpg",
-    "/imgs/TurboBasket/Shop1.jpg",
-    "/imgs/TurboBasket/Shop2.jpg",
-    "/imgs/TurboBasket/DelBoy1.jpg",
-    "/imgs/TurboBasket/DelBoy2.jpg",
+    `${import.meta.env.BASE_URL}imgs/TurboBasket/User1.jpg`,
+    `${import.meta.env.BASE_URL}imgs/TurboBasket/User2.jpg`,
+    `${import.meta.env.BASE_URL}imgs/TurboBasket/Shop1.jpg`,
+    `${import.meta.env.BASE_URL}imgs/TurboBasket/Shop2.jpg`,
+    `${import.meta.env.BASE_URL}imgs/TurboBasket/DelBoy1.jpg`,
+    `${import.meta.env.BASE_URL}imgs/TurboBasket/DelBoy2.jpg`,
   ];
 
   const jerseyStoreImages = [
-    "/imgs/Jersey_Store/Home.png",
-    "/imgs/Jersey_Store/Shop.png",
-    "/imgs/Jersey_Store/Cart.png",
+    `${import.meta.env.BASE_URL}imgs/Jersey_Store/Home.png`,
+    `${import.meta.env.BASE_URL}imgs/Jersey_Store/Shop.png`,
+    `${import.meta.env.BASE_URL}imgs/Jersey_Store/Cart.png`,
   ];
 
   const dharmaAiImages = [
-    "/imgs/Dharma_Ai/Home.png",
-    "/imgs/Dharma_Ai/Chat_Sidebar.png",
-    "/imgs/Dharma_Ai/Profile.png",
+    `${import.meta.env.BASE_URL}imgs/Dharma_Ai/Home.png`,
+    `${import.meta.env.BASE_URL}imgs/Dharma_Ai/Chat_Sidebar.png`,
+    `${import.meta.env.BASE_URL}imgs/Dharma_Ai/Profile.png`,
   ];
 
 const Project = () => {
