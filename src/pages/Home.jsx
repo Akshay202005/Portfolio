@@ -71,7 +71,7 @@ const Home = () => {
         {/* Right Side Content */}
         <div className="w-56 h-56 sm:w-72 sm:h-72 lg:w-90 lg:h-90 rounded-full overflow-hidden border-12 sm:border-20 lg:border-30 bg-clip-border border-transparent bg-[radial-gradient(circle,#1E3A8A80_40%,#0B112080_100%)] shrink-0">
           <div className='border border-[#03060C] rounded-full overflow-hidden w-full h-full'>
-            <img src="/imgs/hero.png" alt="Akshay Naik" className="w-auto h-auto object-cover bg-[#03060C]"/>
+            <img src={`${import.meta.env.BASE_URL}imgs/hero.png`} alt="Akshay Naik" className="w-auto h-auto object-cover bg-[#03060C]"/>
           </div>
         </div>
         
