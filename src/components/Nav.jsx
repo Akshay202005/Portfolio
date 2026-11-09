@@ -79,7 +79,7 @@ const Nav = () => {
 
           {/* Resume */}
           <motion.a
-            href="/Resume.pdf"
+            href="../../public/Akshay_Naik_Frontend_Dev.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className='hidden md:flex items-center gap-2 cursor-pointer absolute right-8 px-3 py-1 rounded-lg font-medium'
